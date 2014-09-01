@@ -20,12 +20,10 @@ body, html {
     padding-right: 1em;
     margin: .25em;
 }
-
 #taskbar {
-    background-color: #C8C8C8;
-    padding: 0.8em;
+    background-color: #EAEAEA;
+    padding: 1em;
 }
-
 #navigation {
     background-color: #F3F3F3;
     border-right:1px solid #EAEAEA;
@@ -108,12 +106,6 @@ hr.footnotes {
     }
 }
 
-.show {display: none; }
-.hide:focus + .show {display: inline; }
-.hide:focus { display: none; }
-.hide:focus ~ #list { display:none; }
-@media print { .hide, .show { display: none; } }
-
 @media (min-width: 47.5em ) and (orientation: landscape) {
     body, html {
         height:100%;
@@ -130,13 +122,11 @@ hr.footnotes {
         position:relative;
         padding: 0em;
         margin: 0em;
-    }
-    
+    }    
     #taskbar {
         background-color: #EAEAEA;
         padding: 0em;
     }
-    
     #navigation {
         background-color:#F3F3F3;
         display:inline-block;
