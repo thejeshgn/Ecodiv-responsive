@@ -1,9 +1,10 @@
-This is a modified template for exporting content from the amazing Zim program, designed to be responsive for viewing in all devices. Specifically, it is designed as "mobile-first," (dropping navigation to the bottom of the screen), and will only enable right-side navigation if the device is of significant width and in landscape mode.
+### Description
+This is a modified version of the Eight-Five-Zero template for Zim, which itself is a modified version of the Zero-Five-Eight template.
 
-*Updated for 6.1
+Like the original Eight-Five-Zero template it helps you to export your Zim notebook as a responsive website that can be viewed in all devices. Differences are:
 
-You may see the older (6.0 and below) version work at my personal site, http://jrm4.com.
+* At larger screens I moved the navigate side menu back to the left
+* At smaller screens the natigate menu moves to the top rather than the bottom
+* I added the option to collapse the navigate menu, to save real estate and to reduce page scrolling
 
-Many thanks to the creators of the original Zim (http://zim-wiki.org), literally the best program I've ever used.
 
-No warranties or guarantees, please use this at your own risk.
