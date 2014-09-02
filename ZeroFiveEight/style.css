@@ -1,7 +1,6 @@
 *, *:before, *:after {
 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
     }
-
 body, html {
     height:100%;
     font-family:'Open Sans', sans-serif;
@@ -51,6 +50,9 @@ body, html {
 }
 #navigation a:hover {
     text-decoration:underline;
+}
+#content img {
+max-width:100%; 
 }
 #content h1:nth-child(1) {
     margin-top:0;
@@ -140,11 +142,13 @@ hr.footnotes {
         max-width:30%;
     }
     #content {
-        float:left;
         display:inline-block;
         position:absolute;
         max-width:960px;
         padding:35px;
-    }    
+    }
+    #content img {
+        max-width:960px; 
+    }   
 }
 
