@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>[% title %]</title>
+    
+	<meta name="generator" content="[% generator.name %] & the Ecodiv-responsive template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek,latin-ext' rel='stylesheet' type='text/css'>
+    <script type='text/javascript' src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+    <script type='text/javascript' src="[% resource('script.js') %]" type="text/javascript"></script>
+    <link rel="stylesheet" media="screen and (min-width: 1685px)" href="[% resource('style.css') %]" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 1685px) and (min-width:1000px)" href="[% resource('style2.css') %]" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 999px) and (min-width:750px)" href="[% resource('style3.css') %]" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="[% resource('style4.css') %]" type="text/css">      
+</head>
+<body>
+    [% options.empty_lines = 'remove' %]
+    [% options.line_breaks = 'default' %]
+    
+	<div class="wrapper">
+ 
+    <!--Collapsable menu-->    
+        <div id="taskbar" style="color:#3D6E0F; font-weight:500;">
+            <span style="margin-left: 10px;"><strong>Menu</strong></span>
+            <a href="#" class="toggler" style="color:#CE5C00; text-decoration:none; line-height: 2em;">[show/hide]</a> 
+            <div id="list">
+                <div id="navigation">
+                    <!-- To add additional links above the navigation menu, replace the link below with your link and remove comment tags -->
+                    <p style="padding-left:20px; margin-bottom:0px"><a href="http://ecodiv.org/swp/test2/Home.html">Home</a></p>
+                    [% index() %]
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="block">
+            <div id="content">
+            <!--[% FOR page IN pages %]-->
+                <h1>[% page.heading %] <a name='[% anchor(page) %]'></a></h1>
+                [% page.body %]
+                <br>
+                <span class="backlinks">
+                <!--[% FOR link IN page.backlinks %]-->
+                    [% IF loop.first %]
+                    <hr class='footnotes'>
+                    <b>Backlinks:</b>
+                    [% END %]<br />
+                    <a href='[% uri(link) %]'>[% link.name %]</a>
+                    [% IF loop.last %][% END %]
+                <!--[% END %]-->
+                </span>
+                
+                <!-- !! The script will center all images. If you prefer the default (images at left delete these three lines -->    
+                <script>
+                    $( "img" ).wrap( "<div class='imgcenter'></div>" );
+                </script>
+                
+                [% IF not loop.last %]<hr class='pageseparator'/>[% END %]
+            <!--[% END %]-->
+            
+                <div id='footer'>
+                    <p>Created with <a href='http://zim-wiki.org/'>Zim-wiki</a> & the <a href='https://github.com/ecodiv/Eight-Five-Zero-C'>Ecodiv-responsive template</a><p>
+                </div>
+            </div>
+        </div>
+	</div>
+    <p>test</p>
+</body>
+</html>

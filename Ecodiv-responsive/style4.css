@@ -6,7 +6,7 @@ body, html {
     font-family:'Open Sans', sans-serif;
     line-height:1.5em;
     font-weight:300;
-    background-color:#FAFAFA;
+    background-color:#FFFFFF;
     text-rendering:geometricPrecision;
     margin:0;
     padding:0;
@@ -15,8 +15,8 @@ body, html {
     height:100%;
     padding-bottom: 1em;
     padding-top: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     margin: .25em;
 }
 #taskbar {
@@ -27,9 +27,16 @@ body, html {
     background-color: #F3F3F3;
     border-right:1px solid #EAEAEA;
     padding: 0.8em;
+    font-weight:500;
+    font-size:1em;
+}
+#bgcontent{
 }
 #content {
-    padding: 1.25em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
     margin-bottom: .5em;
 }
 #navigation ul {
@@ -85,8 +92,7 @@ h3,h4,h5,h6 {
     color: grey;
 }
 #content u {
-    text-decoration: none;
-    background-color: yellow;
+    text-decoration: underline;
 }
 #content tt {
     color: #2e3436;
@@ -102,22 +108,34 @@ hr.footnotes {
     width: 20%;
     margin-left: 0;
 }
+#footer{ 
+    padding-top:24px; 
+    text-align: right;
+    clear:both; 
+    padding-bottom:0px; 
+    color:#999; 
+    font-size:0.8em; 
+}
+#footer a {
+    color:#988;
+}
+
 @media print{
     #navigation{
         background-color:#FFF;
     }
 }
 
-@media (min-width: 47.5em ) and (orientation: landscape) {
+@media (min-width: 960px) and (orientation: landscape) {
     body, html {
         height:100%;
         font-family:'Open Sans', sans-serif;
         line-height:1.5em;
         font-weight:300;
-        background-color:#FAFAFA;
         text-rendering:geometricPrecision;
         margin:0;
         padding:0;
+        background-color:#FFFFFF;
     }
     .wrapper {
         height:100%;
@@ -129,10 +147,16 @@ hr.footnotes {
         background-color: #EAEAEA;
         padding: 0em;
     }
+    #sticky_taskbar{
+        background-color: #EAEAEA;
+        padding: 0em;
+        width:100%;
+    } 
     #navigation {
         background-color:#F3F3F3;
         display:inline-block;
         border-right:2px solid #EAEAEA;
+        border-bottom:2px solid #EAEAEA;
         padding-right:65px;
         padding-top:15px;
         padding-left:5px;
@@ -141,14 +165,41 @@ hr.footnotes {
         min-height:100%;
         max-width:30%;
     }
+    #block {
+        margin: auto;
+        max-width: 960px;
+        padding: 2em;
+    }
     #content {
         display:inline-block;
         position:absolute;
-        max-width:960px;
-        padding:35px;
+        max-width: 960px; 
+        border-width: 0px;
+        padding-left: 2em;
+        padding-top: 1em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
     }
     #content img {
         max-width:960px; 
     }   
 }
+#footer{ 
+    padding-top:24px; 
+    text-align: right;
+    clear:both; 
+    padding-bottom:0px; 
+    color:#999; 
+    font-size:0.8em; 
+}
+#footer a {
+    color:#DF9F6A;
+}
+
+
+
+
+
 

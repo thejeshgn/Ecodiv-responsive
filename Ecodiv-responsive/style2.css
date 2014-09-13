@@ -1,0 +1,149 @@
+*, *:before, *:after {
+-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+body, html {
+    height:100%;
+    font-family:'Open Sans', sans-serif;
+    line-height:1.5em;
+    background-color:#FAFAFA;
+    text-rendering:geometricPrecision;
+    margin:0;
+    padding:0;
+}
+.wrapper {
+    height:100%;
+    position:relative;
+    padding: 0em;
+    margin: 0em;
+}    
+#taskbar {
+    background-color: #EAEAEA;
+    padding: 0em;
+    }
+#navigation {
+    background-color:#F3F3F3;
+    display:inline-block;
+    border-right:2px solid #EAEAEA;
+    border-bottom:2px solid #EAEAEA;
+    padding-right:45px;
+    padding-top:15px;
+    padding-left:5px;
+    position:relative;
+    float:left;
+    min-height:100%;
+    max-width:30%;
+}
+#block {
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 960px;
+    padding-left: 2em;
+    padding-top: 0em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    background-color:#FFFFFF;
+    height: 100%;
+}
+#content {
+    display:inline-block;
+    position:absolute;
+    max-width: 960px;
+    border-width: 0px;
+    padding-left: 3em;
+    padding-top: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2em;
+    background-color:#FFFFFF;
+}
+#navigation ul {
+    margin-top:0;
+    padding-left:20px;
+}
+#navigation li {
+    list-style-type:none;
+}
+#navigation a {
+    text-decoration:none;
+    color:gray;
+}
+#navigation strong {
+    color:#4E9A06;
+    font-weight:400;
+}
+#navigation a:hover {
+    text-decoration:underline;
+}
+#content img {
+max-width:99%; 
+}
+#content h1:nth-child(1) {
+    margin-top:0;
+}
+h1 {
+    color:#3D6E0F;
+    font-weight:300;
+    }
+h2 {
+    color:#418006;
+    font-weight:300;
+    }
+h3,h4,h5,h6 {
+    color:#4E9A06;
+    font-weight:300;
+}
+#content a {
+    color:#CE5C00;
+}
+#content a {
+    text-decoration: none;
+}
+#content a:hover {
+    text-decoration: underline;
+}
+#content a:active {
+    text-decoration: underline;
+}
+#content strike {
+    color: grey;
+}
+#content u {
+    text-decoration: underline;
+}
+#content tt {
+    color: #2e3436;
+}
+#content pre {
+    color: #2e3436;
+    margin-left: 20px;
+}
+.backlinks {
+    color:gray;
+}
+hr.footnotes {
+    width: 20%;
+    margin-left: 0;
+}
+#footer{ 
+    padding-top:24px; 
+    text-align: right;
+    clear:both; 
+    padding-bottom:0px; 
+    color:#999; 
+    font-size:0.8em; 
+}
+#footer a {
+    color:#DF9F6A;
+}
+
+
+
+
+
+
+
+
+
+
