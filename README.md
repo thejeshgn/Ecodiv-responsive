@@ -8,9 +8,6 @@ Template to export your Zim notebook as a responsive/adaptive website that can b
 
 For an example webpage, see http://ecodiv.org/swp/test2/Home.html
 
-### Acknowledgement
-The initial version of this template was based on the [Eight-Five-Zero](https://github.com/jrm4/Eight-Five-Zero) template for Zim.
-
 ### Screenshots
 
 <a href="http://ecodiv.org/files/8814/1068/4774/screenshot_Ecodiv-responsive_on_Desktop_-_open_menu.png"><img src="http://ecodiv.org/files/8814/1068/4774/screenshot_Ecodiv-responsive_on_Desktop_-_open_menu.png" height=250></a>  
@@ -22,4 +19,7 @@ _Screenshot of a webpage generated with the Ecodiv-responsive template viewed on
 
 <a href="http://ecodiv.org/files/6214/1068/4779/screenshot_Ecodiv-responsive_on_mobile_-_open_menu.png"><img src="http://ecodiv.org/files/6214/1068/4779/screenshot_Ecodiv-responsive_on_mobile_-_open_menu.png" height=250></a>.....
 <a href="http://ecodiv.org/files/3014/1068/4777/screenshot_Ecodiv-responsive_on_mobile_-_closed_menu.png"><img src="http://ecodiv.org/files/3014/1068/4777/screenshot_Ecodiv-responsive_on_mobile_-_closed_menu.png" height=250></a>  
-_Screenshot of a webpage generated with the Ecodiv-responsive template viewed on a mobile, with the navigation menu open and closed. Click on the image to enlarge_
+_Screenshot of a webpage generated with the Ecodiv-responsive template viewed on a mobile, with the navigation menu open and closed. Click on the image to enlarge_  
+
+### Acknowledgement
+The initial version of this template was based on the [Eight-Five-Zero](https://github.com/jrm4/Eight-Five-Zero) template for Zim.
