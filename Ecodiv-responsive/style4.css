@@ -14,11 +14,11 @@ body, html {
     padding-top: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    margin: .25em;
+    margin: .05em;
 }
 #taskbar {
     background-color: #EAEAEA;
-    padding: 1em;
+    padding: 0px;
 }
 #navigation {
     background-color: #F3F3F3;
@@ -90,6 +90,11 @@ body, html {
         margin-left: auto;
         margin-right: auto;
     }
+}
+#menuicon{
+    padding-left:20px; 
+    padding-bottom:5px;
+    padding-top:5px;
 }
 
 

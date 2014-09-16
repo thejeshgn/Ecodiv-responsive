@@ -10,7 +10,7 @@
 }
 #navigation a {
     text-decoration:none;
-    color:gray;
+    color:#515151;
 }
 #navigation strong {
     color:#4E9A06;
@@ -36,6 +36,9 @@ h2 {
 h3,h4,h5,h6 {
     color:#4E9A06;
     font-weight:300;
+}
+#content {
+    color:#515151;
 }
 #content a {
     color:#CE5C00;
@@ -70,7 +73,7 @@ hr.footnotes {
     margin-left: 0;
 }
 #footer{ 
-    padding-top:24px; 
+    padding-top:36px;  
     text-align: right;
     clear:both; 
     padding-bottom:0px; 
