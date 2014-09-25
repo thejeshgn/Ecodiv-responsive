@@ -7,7 +7,7 @@ Template to export your Zim notebook as a responsive/adaptive website that can b
 * Navigation menu can be collapsed (hidden) to save real estate and to reduce page scrolling
 * Image resize to fit within screen (only works when navigation menu on top)
 
-For an example webpage, see http://ecodiv.org/swp/test2/Home.html or see the screenshots below (screenshots may not show the most recent version).
+For an example webpage, see my website http://notebook.ecodiv.org/ or see the screenshots below (screenshots may not show the most recent version).
 
 ### Screenshots
 
