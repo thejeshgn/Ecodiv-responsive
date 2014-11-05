@@ -6,6 +6,7 @@ Template to export your Zim notebook as a responsive/adaptive website that can b
 * On your mobile or smaller tablets, the natigate menu moves to the top
 * Navigation menu can be collapsed (hidden) to save real estate and to reduce page scrolling
 * Image resize to fit within screen (only works when navigation menu on top)
+* By default an header image is placed on top of each page (you may want to change the default picture or remove this option in the template)
 
 For an example webpage, see my website http://notebook.ecodiv.org/ or see the screenshots below (screenshots may not show the most recent version).
 
