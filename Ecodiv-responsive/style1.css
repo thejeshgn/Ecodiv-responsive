@@ -21,6 +21,8 @@ body, html {
     padding: 0em;
     margin: 0em;
 }
+#list{
+}
 #taskbar {
     padding: 0em;
     background:#F9F9F9;
@@ -32,7 +34,6 @@ body, html {
     width: 100%;
 }
 #navigation {
-    display:inline-block;
     border-left:2px solid #EAEAEA;
     border-right:2px solid #EAEAEA;
     border-bottom:2px solid #EAEAEA;
@@ -42,8 +43,9 @@ body, html {
     position:fixed;
     margin-top:10px;
     float:left;
-    min-height:100%;
     max-width:30%;
+    height: 100%;
+    overflow:auto;
 }
 #block {
     margin-left: auto;
@@ -55,9 +57,9 @@ body, html {
     display:inline-block;
     width: 960px; 
     border-width: 0px;
-    padding-left: 4em;
-    padding-top: 4em;
-    padding-right: 4em;
+    padding-left: 2.5em;
+    padding-top: 2em;
+    padding-right: 2.5em;
     padding-bottom: 0em;
     margin-left: auto;
     margin-right: auto;
@@ -71,6 +73,7 @@ body, html {
 #menuicon{
     margin-left:20px; 
     margin-top:10px;
+    width:90px;
 }
 
 

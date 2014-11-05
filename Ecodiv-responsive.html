@@ -30,18 +30,33 @@
             </div>
             <div id="list">
                 <div id="navigation">
-                    <!-- To add additional links above the navigation menu, replace the link below with your link and remove comment tags -->
-                    <p style="padding-left:20px; margin-bottom:0px"><a href="http://ecodiv.org/swp/test2/Home.html">Home</a></p>
+                    <!-- To add additional links above the navigation menu, replace the link below with your link and remove comment tags
+                    If you do, you may want to remove the extra line above the index -->
+                    <!-- <p style="padding-left:20px; margin-bottom:0px"><a href="http://yourURL.html">Home</a></p> -->
+                    <p></p>
                     [% index() %]
                     <p></p>
+                    <!-- Warning message if java script is disabled -->
+                    <noscript>
+                        <div style="padding: 10px">
+                            <span style="color:#D48D8D"><p>Please note</p>
+                            <p>To hide the menu</p>
+                            <p>you need to enable</p>
+                            <p>Java script</p></span>
+                        </div>
+                    </noscript>
                 </div>
             </div>
         </div>
-        
         <div id="block">
             <div id="content">
             <!--[% FOR page IN pages %]-->
+            
+                <!-- You may want to replace the image below (but you are welcome to use it if you like) -->
+                <img src="[% resource('header_1.png') %]" width=100% alt="Header">
+                <br>
                 <h1>[% page.heading %] <a name='[% anchor(page) %]'></a></h1>
+                
                 [% page.body %]
                 <br>
                 <span class="backlinks">

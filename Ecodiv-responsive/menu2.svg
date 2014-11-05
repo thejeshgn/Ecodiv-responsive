@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,9 +41,9 @@
      showgrid="false"
      showborder="false"
      inkscape:showpageshadow="false"
-     inkscape:zoom="4.5611024"
-     inkscape:cx="31.755533"
-     inkscape:cy="7.3553929"
+     inkscape:zoom="9.5347592"
+     inkscape:cx="20.138447"
+     inkscape:cy="0.99824264"
      inkscape:window-x="49"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -100,7 +100,7 @@
      inkscape:export-ydpi="96.036201" />
   <text
      xml:space="preserve"
-     style="font-size:26.01350403px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:1000%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#6a6a6a;fill-opacity:0.68235294;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Arial;-inkscape-font-specification:Arial"
+     style="font-size:26.01350403000000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:1000%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ce5c00;fill-opacity:0.68235296;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Arial;-inkscape-font-specification:Arial"
      x="54.109772"
      y="20.065289"
      id="text3775"
@@ -113,5 +113,5 @@
        id="tspan3777"
        x="54.109772"
        y="20.065289"
-       style="font-weight:bold;fill:#6a6a6a;fill-opacity:0.68235294;-inkscape-font-specification:Arial Bold">menu</tspan></text>
+       style="font-weight:bold;fill:#ce5c00;fill-opacity:0.68235296;-inkscape-font-specification:Arial Bold">menu</tspan></text>
 </svg>
