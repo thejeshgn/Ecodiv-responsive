@@ -96,3 +96,7 @@ hr.footnotes {
         background-color:#FFF;
     }
 }
+
+.checked-box {list-style-image: url(checked.png)}
+.xchecked-box {list-style-image: url(checked.png)}
+.unchecked-box {list-style-image: url(unchecked.png)}
