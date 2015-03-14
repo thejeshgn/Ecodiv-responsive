@@ -52,36 +52,20 @@
         </div>
         <div id="block">
             <div id="content">
-            <!--[% FOR page IN pages %]-->
-            
-                <!-- You may want to replace the image below (but you are welcome to use it if you like) -->
-                <img src="[% resource('header_1.png') %]" width=100% alt="Thejesh GN's Notes'">
-                <br>
-                <h1>[% page.heading %] <a name='[% anchor(page) %]'></a></h1>
+            <!--[% FOR page IN pages %]-->            
+                <h1><img src="https://thejeshgn.com/presentations/ground.png" width="5%"/>[% page.heading %] <a name='[% anchor(page) %]'></a></h1>
                 
                 [% page.body %]
                 <br>
                 <span class="backlinks">
-                <!--[% FOR link IN page.backlinks %]-->
-                    [% IF loop.first %]
-                    <hr class='footnotes'>
-                    <b>Backlinks:</b>
-                    [% END %]<br />
-                    <a href='[% uri(link) %]'>[% link.name %]</a>
-                    [% IF loop.last %][% END %]
-                <!--[% END %]-->
                 </span>
                 
-                <!-- !! The script will center all images. If you prefer the default (images at left delete these three lines -->    
-                <script>
-                    $( "img" ).wrap( "<div class='imgcenter'></div>" );
-                </script>
                 
                 [% IF not loop.last %]<hr class='pageseparator'/>[% END %]
             <!--[% END %]-->
             
                 <div id='footer'>
-                    <p>Read <a href='http://thejeshgn.com/terms-and-conditions/'>Copyright and other terms/conditions.</a> | <a href='http://thejeshgn.com/'>Thejesh GN</a><p>
+                    <p><a href='https://thejeshgn.com/terms-and-conditions/'>Terms & Conditions</a> <img src="https://thejeshgn.com/presentations/ground.png" width="2%"/> <a href='http://thejeshgn.com/'>Thejesh GN</a><p>
                 </div>
             </div>
         </div>
@@ -100,6 +84,5 @@
   })();
 
 </script>
-
 </body>
 </html>
